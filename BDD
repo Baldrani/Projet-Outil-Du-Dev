@@ -1,0 +1,18 @@
+CREATE DATABASE `Blog` /*!40100 DEFAULT CHARACTER SET latin1 */
+
+CREATE TABLE `Article` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` varchar(45) DEFAULT NULL,
+  `text` longtext,
+  `time` datetime DEFAULT NULL,
+  `name` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
+
+CREATE TABLE `Comment` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `text` longtext,
+  `time` datetime DEFAULT NULL,
+  `name` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
