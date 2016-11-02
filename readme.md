@@ -1,3 +1,10 @@
-Projet de Dev dans le cadre du cours Outils du déevloppeur
-#Ca va être trop bien !!
+#Outil du Développeur
 
+Résumé du projet :
+
+Réalisation d'un Blog dans le but d'utiliser Git en tant qu'outil de versioning.
+
+##A Faire :
+* Création Template
+* Création Class Personne
+* Création BDD (?)
