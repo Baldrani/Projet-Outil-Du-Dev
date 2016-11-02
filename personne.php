@@ -1,7 +1,11 @@
-<?
+<?php
+
 /**
-* 
-*/
+ * Created by PhpStorm.
+ * User: robin
+ * Date: 02/11/16
+ * Time: 11:15
+ */
 class Personne
 {
 	
